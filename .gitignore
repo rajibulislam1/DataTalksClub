@@ -1,0 +1,47 @@
+# Virtual environments
+clubD/
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# ML model files
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+
+# macOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Others
+*.env
+*.egg-info/
+
