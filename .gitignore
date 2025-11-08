@@ -1,47 +1,100 @@
+# -----------------------------
+# Python bytecode
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
 # Virtual environments
-clubD/
+# -----------------------------
+ClubD/
+env/
 venv/
 .venv/
 
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Jupyter Notebook checkpoints
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Datasets
-data/
-datasets/
+# -----------------------------
+# Editor / IDE settings
+# -----------------------------
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# macOS system files
+# -----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------
+# Logs and databases
+# -----------------------------
+*.log
+*.sqlite3
+*.db
+*.sql
+
+# -----------------------------
+# Deep learning / ML models
+# -----------------------------
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# TensorFlow / Keras
+*.h5
+*.pb
+saved_model/
+*.keras/
+
+# -----------------------------
+# Data files
+# -----------------------------
 *.csv
 *.tsv
 *.json
-*.xlsx
+*.parquet
+*.npy
+*.npz
 
-# ML model files
-*.pkl
-*.joblib
-*.h5
-*.hdf5
-*.pt
-*.pth
-
-# Logs
-logs/
-*.log
-
-# macOS system files
-.DS_Store
-
-# VSCode settings
-.vscode/
-
-# PyCharm settings
-.idea/
-
-# Others
-*.env
+# -----------------------------
+# Python packaging / build
+# -----------------------------
+build/
+dist/
 *.egg-info/
+*.egg
+*.whl
 
+# -----------------------------
+# Coverage / test reports
+# -----------------------------
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+nosetests.xml
+coverage.xml
+
+# -----------------------------
+# Environment variables / secrets
+# -----------------------------
+.env
+.env.*
+.venv
+
+# -----------------------------
+# Others
+# -----------------------------
+*.swp
+*~
