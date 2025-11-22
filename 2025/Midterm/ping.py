@@ -2,8 +2,9 @@ from flask import Flask
 
 app = Flask('ping')
 
-@app.route("/ping")
-def ping_route():
-    return ping()  # calls the function we defined
+@app.route("/ping", methods=['GET'])
+def ping():
+    return 'PONG'
 
-app.run(debug=True, host = '0.0.0.0')
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=9696)
