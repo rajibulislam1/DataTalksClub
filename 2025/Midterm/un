@@ -1,0 +1,10 @@
+{
+    "parents":"usual", 
+    "has_nurs":"proper",
+    "form":"completed",
+    "children":3,
+    "housing":"convenient", 
+    "finance":"convenient",
+    "social":"slightly_prob", 
+    "health":"priority"
+}
